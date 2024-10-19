@@ -1,0 +1,93 @@
+/* Note.css */
+.note-card {
+  
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .newProduct {
+    margin-bottom: 16px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+  }
+  
+  input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .table button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .table button:hover {
+    background-color: #45a049;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  .noteList{
+    max-width: 600px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .noteList div{
+    width: 100%;
+  }
+  .totalPrice {
+    padding: 6px;
+    margin-top: 16px;
+    font-size: 18px;
+    text-align: right;
+  }
+.noteList button:hover,
+.noteList button:active{
+  transform: scale(1.2);
+    color: red;
+}
+.description{
+  display: flex;
+  align-items: center;
+}
+.description div{
+  padding-left: 45px;
+}

@@ -1,0 +1,91 @@
+.clients-card {
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.iconplus {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: none;
+    cursor: pointer;
+    color: #fff;
+  }
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clients p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.clients button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: none;
+    color: white;
+    cursor: pointer;
+}
+
+.clients button:hover {
+    transform: scale(1.2);
+}
+.iconplus button{
+    width: 30px;
+    height: 30px;
+}
+.iconplus button:hover {
+    transform: scale(1.2);
+}
+.delete:hover{
+    color: red;
+}
+.newClient{
+    position: absolute;
+    right: 12%;
+    padding: 10px;
+    border-radius: 0 10px 10px 10px;
+    color: black;
+    background: #fff;
+}
+.newClient form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.newClient input{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.newClient button{
+    border-radius: 1px;
+  box-shadow: 4px 4px 4px #2f4760;
+  margin: 10px;
+    height: 30px;
+    width: 80px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

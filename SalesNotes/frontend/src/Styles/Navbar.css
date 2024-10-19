@@ -1,0 +1,27 @@
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background: #003c8a;
+    font-size: 8px;
+    font-family: Helvetica, sans-serif;
+    align-items: center;
+
+}
+
+h1 {
+    padding-left: 25px;
+}
+
+button {
+    margin-right: 10px;
+    background: none;
+    border: none;
+}
+
+button:active {
+    background: #ffffff;
+}
